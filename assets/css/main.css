@@ -34,6 +34,10 @@ body{
     transform: translateZ(-1px) scale(1);
     z-index: -1;
 }
+.parallax1{
+    transform: translateZ(-1px) scale(1);
+    z-index: -1;
+}
 .parallax-text{
     text-align: center;
     color: #ffffff;
@@ -91,3 +95,7 @@ hr.hr-style{
 .icons{
     color: #fff;
 }
+
+
+
+
