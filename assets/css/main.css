@@ -19,6 +19,16 @@ Grey: #f5f5f5
     color: #fff;
 }
 
+.registerBtn{
+    background-color:#cd5554;
+    color: #fff;
+}
+
+.registerBtn:hover{
+    background-color:#dd3c3c;
+    color: #fff;
+}
+
 /*body for all pages*/
 body{
     font-family: 'PT Serif', serif;
@@ -73,7 +83,6 @@ hr.hr-style{
 }
 
 /*Contact*/
-
 /* form */
 .btn-color-send{
     background-color: #cd5554;
@@ -97,6 +106,16 @@ hr.hr-style{
         width: 300px; 
         height: 344px;
     }
+
+    .lichessStudies{
+        width:auto;
+        height:80%px;
+    }
+}
+
+.lichessStudies{
+    width:600px;
+    height:370px;
 }
 
 /*Footer*/
