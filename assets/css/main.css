@@ -50,6 +50,11 @@ hr.hr-style{
     opacity: 1;
 }
 
+/*About Us*/
+.aboutChessClub{
+    text-align: justify;
+}
+
 /*gallery*/
 .galleryCard{
     width: auto;
@@ -81,6 +86,18 @@ hr.hr-style{
     height: 300px;
 }
 
+/*Learn And Play Chess*/
+.lichessTV{
+    width: 500px; 
+    height: 544px;
+}
+
+@media only screen and (max-width: 600px){
+    .lichessTV{
+        width: 300px; 
+        height: 344px;
+    }
+}
 
 /*Footer*/
 #footer{
