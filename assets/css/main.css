@@ -132,6 +132,31 @@ hr.hr-style{
     color: #fff;
 }
 
+#parallax-carousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+/*home*/
+.parallax1{
+    background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: translateZ(-1px) scale(1);
+    z-index: -1;
+    
+}
+@keyframes example {
+    0%   {background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
+    25%  {background-color: url("https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg");}
+    50%  {background-color: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
+    100% {background-color: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
+  }
 
 
