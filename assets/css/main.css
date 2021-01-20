@@ -19,6 +19,16 @@ Grey: #f5f5f5
     color: #fff;
 }
 
+.registerBtn{
+    background-color:#cd5554;
+    color: #fff;
+}
+
+.registerBtn:hover{
+    background-color:#dd3c3c;
+    color: #fff;
+}
+
 /*body for all pages*/
 body{
     font-family: 'PT Serif', serif;
@@ -54,6 +64,11 @@ hr.hr-style{
     opacity: 1;
 }
 
+/*About Us*/
+.aboutChessClub{
+    text-align: justify;
+}
+
 /*gallery*/
 .galleryCard{
     width: auto;
@@ -72,7 +87,6 @@ hr.hr-style{
 }
 
 /*Contact*/
-
 /* form */
 .btn-color-send{
     background-color: #cd5554;
@@ -85,6 +99,28 @@ hr.hr-style{
     height: 300px;
 }
 
+/*Learn And Play Chess*/
+.lichessTV{
+    width: 500px; 
+    height: 544px;
+}
+
+@media only screen and (max-width: 600px){
+    .lichessTV{
+        width: 300px; 
+        height: 344px;
+    }
+
+    .lichessStudies{
+        width:auto;
+        height:80%px;
+    }
+}
+
+.lichessStudies{
+    width:600px;
+    height:370px;
+}
 
 /*Footer*/
 #footer{
