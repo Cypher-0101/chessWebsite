@@ -141,22 +141,32 @@ hr.hr-style{
 /*home*/
 .parallax1{
     background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");
-    
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     transform: translateZ(-1px) scale(1);
     z-index: -1;
     
 }
+.parallax-text1{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 @keyframes example {
     0%   {background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
-    25%  {background-color: url("https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg");}
-    50%  {background-color: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
-    100% {background-color: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
+    35%  {background-image: url("https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg");}
+    66%  {background-image: url("https://ak.picdn.net/shutterstock/videos/5985872/thumb/1.jpg");}
+    100% {background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
   }
 
 
