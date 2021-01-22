@@ -110,11 +110,6 @@ hr.hr-style{
         width: 300px; 
         height: 344px;
     }
-
-    .lichessStudies{
-        width:auto;
-        height:80%px;
-    }
 }
 
 .lichessStudies{
@@ -122,6 +117,12 @@ hr.hr-style{
     height:370px;
 }
 
+@media only screen and (max-width: 768px){
+    .lichessStudies{
+        width:310px;
+        height:200px;
+    }
+}
 /*Footer*/
 #footer{
     background-color: #313d4b;
