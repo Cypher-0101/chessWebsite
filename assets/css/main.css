@@ -146,7 +146,7 @@ hr.hr-style{
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     transform: translateZ(-1px) scale(1);
     z-index: -1;
