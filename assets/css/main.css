@@ -169,5 +169,7 @@ hr.hr-style{
     66%  {background-image: url("https://ak.picdn.net/shutterstock/videos/5985872/thumb/1.jpg");}
     100% {background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
   }
-
+.nav-item:hover{
+    box-shadow: 1px 1px 20px  rgba(190, 190, 190, 0.911) inset;
+}
 
