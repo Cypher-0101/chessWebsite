@@ -57,7 +57,7 @@
     <!--Nav-->
     <div class="container">
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-background " id="stickynavbar">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,7 +95,7 @@
 
     <!---------------------------------------underlying background image with text------------------------------------->
     <!--Page heading-->
-    <div class="container-fluid parallax parallax-text py-4 mb-5">
+    <div class="container-fluid parallax parallax-text py-4 mb-5 content">
         <div class="row">
             <div class="col text-center mt-3">
                 <h1>Contact us</h1>
@@ -109,7 +109,7 @@
     
     
     <!----------------------------------------------main contact us body ---------------------------------------------------->
-    <div class="container py-lg-5 py-md-5">
+    <div class="container py-lg-5 py-md-5 content">
         <div class="row bg-white mx-md-5 my-md-4 mx-lg-5 my-lg-5">
             
             <!--------------------------left side--------------------------------------------------------------------------->
@@ -147,7 +147,7 @@
             
             
             <!-------------------------------------------------------------right side--------------------------------------------->
-            <div class="col-lg-6 mb-5">
+            <div class="col-lg-6 mb-5 content">
                 <div class="row mx-lg-5 mt-lg-5 mx-md-4">
                     <div class="col-12 ms-lg-3">
                         <div class="map-style" >
@@ -233,6 +233,19 @@ Guwahati, Assam 781013
             &copy; 2021 AEC Chess Club. All rights reserved.
         </div>
     </footer>
-
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("stickynavbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 </body>
 </html>
