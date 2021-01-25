@@ -18,7 +18,15 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <!--preloader-->
+    <div class="spinner-wrapper">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
     <!--Header-->
     <header id="header">
         <div class="container">
@@ -161,6 +169,14 @@
             navbar.classList.remove("sticky");
           }
         }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <script>
+            setTimeout(function(){
+                $('.spinner-wrapper').fadeToggle();
+
+            },3500);
         </script>
 </body>
 </html>
