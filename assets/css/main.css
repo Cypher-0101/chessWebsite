@@ -64,6 +64,10 @@ hr.hr-style{
     opacity: 1;
 }
 
+nav{
+    z-index: 69;
+}
+
 /*About Us*/
 .aboutChessClub{
     text-align: justify;
