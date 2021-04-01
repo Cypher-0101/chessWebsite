@@ -187,6 +187,12 @@ nav{
 .sticky + .content {
     padding-top: 60px;
   }
+.btn-join-us{
+    background-color: #cd5554;
+    color: white;
+    border-color:#cd5554;
+}
+
 
 /*preloader*/
 .sk-folding-cube {
