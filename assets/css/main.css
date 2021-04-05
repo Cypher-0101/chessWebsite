@@ -36,7 +36,7 @@ body{
 }
 
 .parallax{
-    background-image: url("../images/chess-2730034_1920.jpg");
+    background-image: url("../images/chess.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,6 +68,10 @@ nav{
     z-index: 69;
 }
 
+.black-link{
+    color: black;
+}
+
 /*About Us*/
 .aboutChessClub{
     text-align: justify;
@@ -89,6 +93,62 @@ nav{
     -moz-box-shadow:    5px 8px 10px 5px #ccc;  /* Firefox 3.5 - 3.6 */
     box-shadow:         5px 8px 10px 5px #c5c5c5;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
+
+.galleryimg{
+    transition: transform .5s;
+}
+
+.galleryimg:hover{
+    transform: scale(1.1);
+}
+
+.galleryCard {
+    overflow: hidden;
+  }
+  .galleryCard-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+  }
+  .galleryCard-img-wrapper img {
+    transition: 1.5s ease;
+  }
+  .galleryCard:hover .galleryCard-img-wrapper img {
+    transform: scale(1.15);
+  }
+  .galleryCard-body .galleryCard-title {
+    margin-bottom: calc(50%);
+    transition: 1.5s ease;
+  }
+  .galleryCard:hover .galleryCard-body .galleryCard-title {
+    margin-bottom: .50rem;
+  }
+  
+  .galleryCard-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5%;
+    background-color: #fff;
+    transition: 1.5s ease;
+  }
+  .galleryCard-content {
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transition: 1.5s ease;
+  }
+  .galleryCard:hover .galleryCard-body {
+    height: 47%;
+  }
+  .galleryCard:hover .galleryCard-content {
+    bottom: 0;
+  }
 
 /*Contact*/
 /* form */
@@ -145,7 +205,7 @@ nav{
 
 /*home*/
 .parallax1{
-    background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");
+    background-image: url("../images/chess.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,10 +228,10 @@ nav{
 
 }
 @keyframes example {
-    0%   {background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
+    0%   {background-image: url("../images/chess.jpg");}
     35%  {background-image: url("https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg");}
     66%  {background-image: url("https://ak.picdn.net/shutterstock/videos/5985872/thumb/1.jpg");}
-    100% {background-image: url("https://public-platform.s3.amazonaws.com/wp-content/uploads/sites/18/2018/03/04215900/chess-2730034.jpg");}
+    100% {background-image: url("../images/chess.jpg");}
   }
 .nav-item:hover{
     box-shadow: 1px 1px 20px  rgba(190, 190, 190, 0.911) inset;
