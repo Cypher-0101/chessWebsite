@@ -11,6 +11,46 @@
     <!--favicon-->
     <link rel="shortcut icon" type="image/jpeg" href="assets/images/aec-chess-club-logo.jpeg"/>
     <title>Achievements</title>
+    <style>
+      #return-to-top {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          width: 50px;
+          height: 50px;
+          display: block;
+          text-decoration: none;
+          -webkit-border-radius: 35px;
+          -moz-border-radius: 35px;
+          border-radius: 35px;
+          display: none;
+          -webkit-transition: all 0.3s linear;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+      }
+      #return-to-top i {
+          color: #fff;
+          margin: 0;
+          position: relative;
+          left: 16px;
+          top: 13px;
+          font-size: 19px;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+      }
+      #return-to-top:hover {
+          background: rgba(255, 255, 255, 0.2);
+      }
+      #return-to-top:hover i {
+          color: #fff;
+          top: 5px;
+      }
+      </style>
 </head>
 <body>
 
@@ -105,6 +145,11 @@
             <hr class="hr-style mt-2"/>
         </div>
     </div>
+
+    <!--scroll-to-top-button-->
+    <a href="javascript:" id="return-to-top">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-circle-up" class="svg-inline--fa fa-arrow-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#f5f5f5" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm143.6 28.9l72.4-75.5V392c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24V209.4l72.4 75.5c9.3 9.7 24.8 9.9 34.3.4l10.9-11c9.4-9.4 9.4-24.6 0-33.9L273 107.7c-9.4-9.4-24.6-9.4-33.9 0L106.3 240.4c-9.4 9.4-9.4 24.6 0 33.9l10.9 11c9.6 9.5 25.1 9.3 34.4-.4z"></path></svg>
+    </a>
 
     <!--gallery contents-->
     <div class="container mb-5 content">
@@ -205,5 +250,26 @@
         }
       }
       </script>
+
+      <!--for scroll-to-top-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+              
+      <script>
+          /*Scroll to top when arrow up clicked BEGIN*/
+      // ===== Scroll to Top ==== 
+      $(window).scroll(function() {
+          if ($(this).scrollTop() >= 20) {
+              $('#return-to-top').fadeIn(200);
+          } else {
+              $('#return-to-top').fadeOut(200);
+          }
+      });
+      $('#return-to-top').click(function() {
+          $('body,html').animate({
+              scrollTop : 0
+          }, 500);
+      });
+      </script>
+</body>
   </body>
 </html>
