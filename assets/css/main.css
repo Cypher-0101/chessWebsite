@@ -72,6 +72,56 @@ nav{
     color: black;
 }
 
+
+/*Scroll to top*/
+#return-to-top {
+  z-index: 1;
+  color: #f5f5f5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+@media only screen and (max-width: 992px){
+  #return-to-top{
+    color: #cd5554;
+  }
+}
+
+
 /*About Us*/
 .aboutChessClub{
     text-align: justify;
@@ -149,6 +199,18 @@ nav{
   .galleryCard:hover .galleryCard-content {
     bottom: 0;
   }
+
+
+/*Core Team*/
+.core_team_card:hover{
+  -webkit-box-shadow: 5px 8px 10px 5px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    5px 8px 10px 5px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         5px 8px 10px 5px #c5c5c5;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.core_team_img{
+  width: 50%;
+}
+
 
 /*Contact*/
 /* form */
