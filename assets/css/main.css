@@ -29,6 +29,46 @@ Grey: #f5f5f5
     color: #fff;
 }
 
+.aeccc-logo{
+  height: 120px;
+  width: 120px;
+}
+
+.aec-logo{
+  height: 120px;
+  width: 120px;
+}
+
+@media only screen and (max-width: 1024px){
+  .aeccc-logo{
+    height: 90px;
+    width: 90px;
+  }
+  .header-contents{
+    font-size:medium;
+  }
+  .aec-logo{
+    height: 90px;
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .aeccc-logo{
+    height: 70px;
+    width: 70px;
+  }
+  .header-title{
+    font-size:large;
+  }
+  .header-contents{
+    font-size:small;
+  }
+  .aec-logo{
+    height: 65px;
+    width: 65px;
+  }
+}
 /*body for all pages*/
 body{
     font-family: 'PT Serif', serif;
