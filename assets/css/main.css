@@ -481,6 +481,7 @@ left: 48%;
         color: black;
         font-weight: 700;
     }
+
     body{
       background: linear-gradient(-45deg, #cd5554, #91684a, #00c07f, #313d4d);
 	    background-size: 400% 400%;
@@ -502,6 +503,13 @@ left: 48%;
     }
     .marquee-back{
       background-color: #f5f5f5;
-    }    
-
+    }  
+   
+    .anchor{
+      display: block;
+      height: 120px; /*same height as header*/
+      margin-top: -120px; /*same height as header*/
+      visibility: hidden;
+    }
+  
 
