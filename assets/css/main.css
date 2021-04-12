@@ -507,8 +507,8 @@ left: 48%;
    
     .anchor{
       display: block;
-      height: 75px; /*same height as header*/
-      margin-top: -75px; /*same height as header*/
+      height: 120px; /*same height as header*/
+      margin-top: -120px; /*same height as header*/
       visibility: hidden;
     }
   
