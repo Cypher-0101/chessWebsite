@@ -135,24 +135,24 @@
                         <form method="POST" data-email="aecchessclub@gmail.com" name="google-sheet">
                             <h2>Get in touch</h2>
                             <div class="mb-3 mt-3">
-                                <label for="exampleInputName1" class="form-label">Name</label>
-                                <input name="Name" type="text" class="form-control" id="exampleInputemail1" placeholder="Enter Name" aria-describedby="nameHelp">
+                                <label for="exampleInputName1" class="form-label">Name<sup><b>*</b></sup></label>
+                                <input name="Name" type="text" class="form-control" id="exampleInputemail1" placeholder="Enter Name" aria-describedby="nameHelp" required>
                               </div>
-                              <label for="exampleInputName1" class="form-label">Email</label>
+                              <label for="exampleInputName1" class="form-label">Email<sup><b>*</b></sup></label>
                               <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
-                                <input name="Email" type="email" class="form-control" id="exampleInputemail1" placeholder="Enter Email" aria-label="Username" aria-describedby="basic-addon1">
+                                <input name="Email" type="email" class="form-control" id="exampleInputemail1" placeholder="Enter Email" aria-label="Username" aria-describedby="basic-addon1" required>
                               </div>
                               
                             <div class="mb-3">
-                              <label for="exampleInputPhone1" class="form-label">Phone Number</label>
-                              <input name="Phone no" type="text" class="form-control" placeholder="Enter Phone" id="exampleInputPhone1">
+                              <label for="exampleInputPhone1" class="form-label" >Phone Number<sup><b>*</b></sup></label>
+                              <input name="Phone no" type="tel" id="phone_number" class="form-control" placeholder="Enter Phone" id="exampleInputPhone1" required>
                             </div>
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea name="Message" class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                <label for="exampleFormControlTextarea1" class="form-label">Message<sup><b>*</b></sup></label>
+                                <textarea name="Message" class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="5" required></textarea>
                             </div>
-                                <button type="submit" class="btn px-4 btn-color-send">Send</button>
+                                <button type="submit" class="btn px-4 btn-color-send" >Send</button>
                             
                           </form>
                     </div>
