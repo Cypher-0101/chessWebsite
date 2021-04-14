@@ -335,8 +335,8 @@ nav{
 }
 @keyframes example {
     0%   {background-image: url("../images/chess.jpg");}
-    35%  {background-image: url("https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb@2x.jpeg");}
-    66%  {background-image: url("https://ak.picdn.net/shutterstock/videos/5985872/thumb/1.jpg");}
+    35%  {background-image: url("../images/chessback1.jpeg");}
+    66%  {background-image: url("../images/chessback2.jpg");}
     100% {background-image: url("../images/chess.jpg");}
   }
 .nav-item:hover{
