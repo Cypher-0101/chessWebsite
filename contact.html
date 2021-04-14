@@ -132,7 +132,7 @@
             <div class="col-lg-6">
                 <div class="row ms-lg-4 mx-md-4">
                     <div class="col my-5">
-                        <form method="POST" data-email="aecchessclub@gmail.com" name="google-sheet" id="contactForm" >
+                        <form method="POST"  name="google-sheet" id="contactForm" >
                             <h2>Get in touch</h2>
                             <div class="mb-3 mt-3">
                                 <label for="exampleInputName1" class="form-label">Name<sup><b>*</b></sup></label>
@@ -260,7 +260,7 @@ Guwahati, Assam 781013
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
             .catch(error => console.error('Error!', error.message))
         })
        
