@@ -364,6 +364,11 @@ nav{
     border-color:#cd5554;
 }
 
+.scroll{
+  overflow-y:auto;
+  height: 170px;
+  }
+
 
 /*preloader*/
 .sk-folding-cube {
