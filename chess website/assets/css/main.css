@@ -471,7 +471,7 @@ left: 48%;
     z-index: 999999;
     }
 
-
+/*marquee1*/
     .marquee1{
         color: black;
         text-decoration: none;
@@ -492,8 +492,10 @@ left: 48%;
         font-weight: 700;
     }
 
+
+/*background gradient of all pages*/
     body{
-      background: linear-gradient(-45deg, #cd5554, #91684a, #00c07f, #313d4d);
+      background: linear-gradient(-45deg, #009b93, #008891, #00c07f, #00ae8c);
 	    background-size: 400% 400%;
 	    animation: gradient 20s ease infinite;
     }
