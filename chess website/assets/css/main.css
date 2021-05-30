@@ -266,33 +266,37 @@ nav{
 }
 
 /*Learn And Play Chess*/
-.lichessTV{
-    width: 500px; 
-    height: 544px;
+.study-container{
+  position: relative;
+  overflow: hidden;
+  padding-top: 56%;
 }
 
-@media only screen and (max-width: 450px){
-    .lichessTV{
-        width: 250px; 
-        height: 344px;
-    }
-    .lichessStudies{
-      width: 200px;
-      height: 200px;
-    }
+.study-container iframe {
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
-.lichessStudies{
-    width:600px;
-    height:370px;
+.lichessTV-container{
+  position: relative;
+  overflow: hidden;
+  padding-top: 107%;
+}
+.lichessTV-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
-@media only screen and (max-width: 768px){
-    .lichessStudies{
-        width:600px;
-        height:200px;
-    }
-}
+
 /*Footer*/
 #footer{
     background-color: #313d4b;
